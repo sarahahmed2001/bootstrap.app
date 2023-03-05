@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+.bg-body-tertiary{
+    background-color: rgba(0, 0, 0, 0.632);
+}
+.txt-brand{
+
+color:  #0078ff;
+font-size: 1.8rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ .navbar .nav-item .active::after{
+    content: "";
+width: 65px;
+height: 2px;
+position: absolute;
+top:80%;
+left: 1%;
+background-color: black;
+}
+.nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    transition: all 1s;
+}
+
+.nav-link:hover::after {
+    width: 50%;
+}
+
+.txt-ul{
+   
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.txt-ul > li{
+
+padding: 10px;
+
+}
+.body{
+position: relative;
+}
+.first-page{
+background-image:  url(../img/bghhj01.jpg);
+background-color: rgba(159, 49, 49, 0.5);
+height:100vh;
+background-size: cover;
+position: relative;
+
+
+}
+
+.content h2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.background{
+
+    background-color: rgba(0, 0, 0, 0.7);
+position: absolute;
+
+height: 100%;
+width: 100%;
+}
+.content h2::after{
+    content: "";
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+font-size: 2rem;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-page{
+ width: 100%;
+ background-color: rgb(229, 229, 229);     
+position: relative;
+ padding: 50px;
+
+}
+.content-2{
+    width: 80%;
+    margin: auto;
+ display: flex;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+flex-wrap: wrap;
+background-color: white;
+
+}
+.about{
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+
+.card{
+    
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+
+}
+
+ .about .col > h3 , .col .t-contain{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+} 
+
+table{
+    width: 100%;
+height: 100%;
+padding-bottom: 20px;
+margin-left: 20px;
+color: rgb(139, 139, 139);
+}
+.col .card
+{
+width: 100%;
+
+}
+
+.about .col .card img{
+    width: 100%;
+   
+}
+.card-body{
+   padding-top: 0px;
+   padding-left: 20px;
+}
+
+.skills{
+    width: 95%;
+   
+  
+    margin-top: 20px;
+
+
+}
+.skills .div1,.skills .div2, .skills .div3, .skills .div4, .skills .div5, .skills .div6{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.col3 p{
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 1.2rem;
+    color: rgb(50, 50, 50);
+}
+.col3 h3::after{
+content: "";
+width: 80px;
+height: 3.5px;
+background-color: rgb(41, 130, 238);
+position: absolute;
+top:110%;
+left: 0%;
+}
+.second-content{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    width: 80%;
+
+}
+.second-content h2{
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line{
+    font-size: 1.2rem;
+    position: relative;
+}
+.line::after{
+    content: "";
+    width: 60px;
+    height: 3.5px;
+    background-color: rgb(41, 130, 238);
+    position: absolute;
+    top:105%;
+    left: 48%;
+}
+.icon{
+   border: rgb(41, 130, 238) 8px solid ;
+    border-radius: 50%;
+    background-color: white;
+    width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover{
+
+    border: rgb(152, 191, 213) 8px solid;
+    background-color: rgb(41, 130, 238) ;
+color: white;
+}
+.card3{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.icon2{
+    border: rgb(157, 190, 234) 8px solid ;
+     border-radius: 50%;
+     background-color: transparent;
+     width: 80px;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.row3{
+    
+    background-image: linear-gradient(to left, rgba(62, 83, 241, 0.488),rgba(20, 109, 188, 0.647)),url(../img/bghhj03.jpg);
+    background-attachment:fixed;
+    color: white;
+
+}
+
+ .text-center .row {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.page3{
+    width: 100%;
+    background-color: rgb(229, 229, 229);     
+   position: relative;
+    padding: 50px;
+}
+.content3{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    width: 80%;
+    overflow: hidden;
+}.content3 h2{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color-span {
+   color: rgb(41, 130, 238);
+}
+.icon-plus{
+    border:  rgb(41, 130, 238) 3px solid ;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 40px;
+  height:40px;
+  color: rgb(41, 130, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40PX;
+}
+
+.row4{
+    background-image: url(../img/bghhj10.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    color: white;
+    
+}.row4-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color:#0077ff93;
+    display: flex;
+    align-content: center;
+     justify-content: space-around;
+}
+.content-4{
+width: 70%;
+margin: auto;
+text-align: center;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+.icon-slider{
+  
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+  height:40px;
+  color: rgb(41, 130, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40PX;   
+ 
+}
+.carousel-indicators .active{
+background-color: black;
+position: relative;
+    
+}
+.carousel-indicators .active::after{
+  content: "";
+  width: 40px;
+  height: 10px;
+  border-radius:2px ;
+  background-color:transparent ;
+       border: rgb(7, 7, 7) solid 2px;
+    
+       position: absolute;
+       bottom:   -100%;
+       right: -20%; 
+    }
+    .carousel-indicators .active::before{
+        content: "";
+        width: 40px;
+        height: 10px;
+        background-color:transparent ;
+        
+             border: rgb(224, 224, 224) solid 3px;
+             position: absolute;
+             bottom:   -120%;
+             right: -25%; 
+          }
+          .page5{
+            width: 100%;
+            background-color: rgb(229, 229, 229);     
+           position: relative;
+            padding: 50px;
+        }
+        .content5{
+            margin: auto;
+            margin-top: 40px;
+            text-align: center;
+            width: 80%;
+           
+        }.content5 h2{
+            font-size: 3rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+.travel:hover{
+ color: #0078ff;
+        }
+        .top-3{
+top: 3%;
+
+        }
+        .w-15{
+            width: 14%;
+        }
+        .fs-7 {
+            font-size: 0.8rem;
+            height: 30px;
+         margin: auto;
+        }
+        .page3 .col-anc:hover img{
+            transform: scale(1.2);
+        }
+        .page3 a img{
+       
+        transition: transform 1.5s;       
+        
+        }
+     .page-6{
+
+        background-image: linear-gradient(to left, rgba(62, 83, 241, 0.488),rgba(20, 109, 188, 0.647)),url(../img/bghhj10.jpg);
+        background-attachment:fixed;
+        
+ 
+     }
+
+     .line2::after{
+
+        content: "";
+        width: 60px;
+        height: 3.5px;
+        background-color: rgb(41, 130, 238);
+        position: absolute;
+        top:85%;
+        left: 10%;
+
+
+     }
+     .icon-brand{
+        border:  rgb(36, 119, 222) 3.5px solid ;
+        border-radius: 50%;
+        background-color: transparent;
+        width: 40px;
+      height:40px;
+      color: rgb(36, 119, 222);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 40PX;
+    }
+    .icon-brand:hover{
+
+        border: rgb(152, 191, 213) 4px solid;
+        background-color: rgb(41, 130, 238) ;
+    color: white;
+    }
